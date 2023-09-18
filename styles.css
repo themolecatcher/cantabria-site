@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-weight: 200;
+}
+
+h2, h3 {
+    font-weight: 600;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#visit-cantabria {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    color: white
+}
+
+
+#description-cantabria {
+    padding: 1px 5px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: 700;
+}
+.header {
+    height: 350px;
+    background-image: url("images/header-cantabria.webp");
+    background-size: cover;
+    margin-top: -21px;
+    outline: none;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.activities-container {
+    background: #4D7B45;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    margin-top: -21px;
+}
+.activities-section {
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 38px;
+}
+
+#first-activity {
+    padding: 0 20px 0 20px;
+}
+
+#second-activity {
+    padding: 0 20px 0 20px;
+}
+
+#third-activity {
+    padding: 0 20px 0 20px;
+   
+}
+
+#fourth-activity {
+    padding: 0 20px 0 20px;
+}
+
+.guide-section {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(#4D7B45,#2E4A29);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 12px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 2px 2px black;
+}
+
+.guide-card {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+#alojamiento-img {
+    height: 249px;
+    width: 180px;
+    border-radius: 10px;
+    
+}
+
+#guide-paragraph {
+    font-style: italic;
+    font-size: 14px;
+}
+
+#background-guide {
+    background-image: url(images/footer-cantabria.webp.jpg);
+    background-size: cover;
+    padding: 40px;
+
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+/* #2E4A29  */
