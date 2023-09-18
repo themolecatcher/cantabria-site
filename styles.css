@@ -128,4 +128,7 @@ img:hover {
     opacity: 0.6;
 }
 
-/* #2E4A29  */
+@media screen and (max-width: 500px) {
+    .header, .activities-container, .activities-section, .guide-section, .guide-card {
+      width: 100%; }
+    }
