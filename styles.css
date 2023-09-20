@@ -1,3 +1,8 @@
+@media screen and (max-width: 500px) {
+    .header, .activities-container, .activities-section, .guide-section, .guide-card {
+      width: 100%; }
+    }
+
 body {
     text-align: center;
     font-family: 'Outfit', sans-serif;
@@ -19,6 +24,23 @@ img {
     border-radius: 50%;
 }
 
+/* header section */
+
+.header {
+    height: 350px;
+    background-image: url("images/header-cantabria.webp");
+    background-size: cover;
+    margin-top: -21px;
+    outline: none;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 #visit-cantabria {
     text-shadow: 2px 2px black;
     font-size: 40px;
@@ -33,20 +55,9 @@ img {
     text-shadow: 2px 2px black;
     font-weight: 700;
 }
-.header {
-    height: 350px;
-    background-image: url("images/header-cantabria.webp");
-    background-size: cover;
-    margin-top: -21px;
-    outline: none;
-    border: 0px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     
-}
+/* activities in Cantabria */
+
 .activities-container {
     background: #4D7B45;
     padding-top: 10px;
@@ -66,23 +77,11 @@ img {
      gap: 20px; 
 }
 
-#first-activity {
-    padding: 0 20px 0 20px;
+.activities-section div {
+    padding: 0 20px;
 }
 
-#second-activity {
-    padding: 0 20px 0 20px;
-}
-
-#third-activity {
-    padding: 0 20px 0 20px;
-   
-}
-
-#fourth-activity {
-    padding: 0 20px 0 20px;
-}
-
+/* about the guide in Cantabria */
 .guide-section {
     width: 400px;
     height: 300px;
@@ -128,7 +127,3 @@ img:hover {
     opacity: 0.6;
 }
 
-@media screen and (max-width: 500px) {
-    .header, .activities-container, .activities-section, .guide-section, .guide-card {
-      width: 100%; }
-    }
